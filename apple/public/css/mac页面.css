@@ -1,0 +1,191 @@
+a:hover{
+    text-decoration: none;
+}
+.mac_nav_image_one,.mac_nav_image_two,.mac_nav_image_three,
+.mac_nav_image_four,.mac_nav_image_five,.mac_nav_image_six,
+.mac_nav_image_seven,.mac_nav_image_eight,.mac_nav_image_nine,
+.mac_nav_image_ten{
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 6px;
+    height: 54px;
+}
+.mac_nav_image_one{
+    background-image: url(../images/mac/macbook_dark_large.svg);
+    background-size: 46px 54px;
+    width:46px;
+}
+.mac_nav_image_two{
+    background-size: 52px 54px;
+    background-image: url(../images/mac/macbookair_dark_large.svg);
+    width: 52px;
+}
+.mac_nav_image_three{
+    background-size: 58px 54px;
+    background-image: url(../images/mac/macbookpro_dark_large.svg);
+    width: 58px;
+}
+.mac_nav_image_four{
+    background-size: 48px 54px;
+    background-image: url(../images/mac/imac_dark_large.svg);
+    width: 48px;
+}
+.mac_nav_image_five{
+    background-size: 48px 54px;
+    background-image: url(../images/mac/imac_pro_dark_large.svg);
+    width: 48px;
+}
+.mac_nav_image_six{
+    background-size: 21px 54px;
+    background-image: url(../images/mac/macpro_dark_large.svg);
+    width: 21px;
+}
+.mac_nav_image_seven{
+    background-size: 28px 54px;
+    background-image: url(../images/mac/macmini_dark_large.svg);
+    width: 28px;
+}
+.mac_nav_image_eight{
+    background-size: 29px 54px;
+    background-image: url(../images/mac/mac_acc_dark_large.svg);
+    width: 29px;
+}
+.mac_nav_image_nine{
+    background-size: 42px 54px;
+    background-image: url(../images/mac/mac_osx_dark_large.svg);
+    width: 42px;
+}
+.mac_nav_image_ten{
+    background-size: 70px 54px;
+    background-image: url(../images/mac/mac_comp_dark_large.svg);
+    width: 70px;
+}
+.nav_style{
+    top:45px;
+}
+
+.mac_floor{
+    /*background: #121217;*/
+    padding-top: 42px;
+    text-align: center;
+    color: #ccc;
+    font-style: normal;
+
+    line-height: 1.47059;
+    font-weight: 400;
+    width:100%;
+    height:730px;
+    margin-bottom:10px;
+}
+/*第一层*/
+.mac_floor_one_one{
+    color: #111;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    padding-top: 76px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.mac_floor_one_two{
+    padding-left: 0.4em;
+    color: #111;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 52px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-style: normal;
+    /*position: relative;*/
+   /*z-index: 2;*/
+}
+.mac_floor-one-img{
+    background: #fff;
+    transform: translateX(-50%);
+    z-index: -1;
+    width: 1065px;
+    height: 352px;
+    background-size: 1065px 352px;
+    background-repeat: no-repeat;
+    background-image: url(../images/mac/two.jpg);
+    position: relative;
+    left: 50%;
+    z-index: 1;
+    margin-top: 42px;
+}
+/*第二层*/
+.mac_floor_two_one{
+    color: #fff;
+    font-size: 73px;
+    line-height: 1.0625;
+    font-weight: 600;
+    padding-top: 76px;
+    margin-bottom: 15px;
+    /*position: relative;*/
+    /*z-index: 2;*/
+    text-align: center;
+}
+.mac_floor_two_two{
+    padding-left: 0.4em;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 33px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-style: normal;
+    /*position: relative;*/
+   /*z-index: 2;*/
+}
+.mac_floor-two-img{
+    transform: translateX(-50%);
+    width: 1500px;
+    height: 871px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    background-image: url(../images/mac/hero_large.jpg);   
+}
+/*第三层*/
+.mac_floor_three_one{
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    padding-top: 76px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.mac_floor_three_two{
+    padding-left: 0.4em;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 52px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-style: normal;
+    /*position: relative;*/
+   /*z-index: 2;*/
+}
+.mac_floor-three-img{
+    transform: translateX(-50%);
+    width: 1500px;
+    height: 721px;
+    background-size:1500px 721px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    background-image: url(../images/mac/three.jpg);  
+    z-index: 3;
+}
+.new_font{
+    font-size: 22px;
+    color: #0070c9;
+}

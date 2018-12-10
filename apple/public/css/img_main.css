@@ -1,0 +1,321 @@
+/*floor_one的图片类型iphone_xs_large*/
+.logo-image{
+    margin:0 auto;
+    top:60px;
+    position:relative;
+}
+.logo-image-iphone-xs-logo-hero{
+    width:210px;
+    height:34px;
+    background-size:210px 34px;
+    background-repeat:no-repeat;
+    background-image:url("../images/main/iphone_xs_logo_hero_large.png");
+    background-position:center
+}
+@media only screen and (max-width: 1068px){
+    .logo-image-iphone-xs-logo-hero{
+        width:180px;
+        height:30px;
+        background-size:180px 30px;
+        background-image:url("../images/main/iphone_xs_logo_hero_medium.png")
+    }
+}
+@media only screen and (max-width: 735px){
+    .logo-image-iphone-xs-logo-hero{
+        width:146px;
+        height:25px;
+        background-size:146px 25px;
+        background-image:url("../images/main/iphone_xs_logo_hero_small.png")
+    }
+}
+/*iphone xs*/
+.floor-one-img{
+    width: 972px;
+    height: 337px;
+    position:relative;
+    margin:auto auto;
+    top:76px;
+    background-size: 972px 337px;
+    background-repeat: no-repeat;
+    background-image: url("../images/main/iphone_xs_large.jpg");
+}
+@media screen and (max-width: 1068px){
+    .floor-one-img{
+        width:682px;
+        height:315px;
+        background-size:682px 315px;
+        background-image:url("../images/main/iphone_xs_medium.jpg");
+        top:76px;
+    }
+}
+@media only screen and (max-width: 735px){
+    .floor-one-img{
+        width:200px;
+        height:300px;
+        top:76px;
+        background-size:200px 300px;
+        background-image:url("../images/main/iphone_xs_small.jpg")
+    }
+}
+/*floor_two的图片类型iphone_xr_large*/
+/*image-iphone-xr*/
+.logo-image-iphone-xr-logo-hero{
+    width:210px;
+    height:34px;
+    background-size:210px 34px;
+    background-repeat:no-repeat;
+    background-image:url("../images/main/iphone_xr_logo_hero_large.png");
+    background-position:center
+}
+@media only screen and (max-width: 1068px){
+    .logo-image-iphone-xr-logo-hero{
+        width:180px;
+        height:30px;
+        background-size:180px 30px;
+        background-image:url("../images/main/iphone_xr_logo_hero_medium.png")}
+}
+@media only screen and (max-width: 735px){
+    .logo-image-iphone-xr-logo-hero{
+        width:146px;
+        height:25px;
+        background-size:146px 25px;
+        background-image:url("../images/main/iphone_xr_logo_hero_small.png")}
+}
+/*floor-two-img*/
+.floor-two-img{
+    width: 972px;
+    height: 337px;
+    position:relative;
+    margin:auto auto;
+    top:88px;
+    background-size: 972px 337px;
+    background-repeat: no-repeat;
+    background-image:url("../images/main/iphone_xr_large.jpg");
+}
+@media only screen and (max-width: 1068px){
+    .floor-two-img{
+        width:682px;
+        height:321px;
+        top: 110px;
+        background-size:682px 315px;
+        background-image:url("../images/main/iphone_xr_medium.jpg");
+    }
+}
+@media only screen and (max-width: 735px){
+    .floor-two-img{
+        top:93px;
+        width:216px;
+        height:332px;
+        background-size:216px 332px;
+        background-image:url("../images/main/iphone_xr_small.jpg")}
+}
+/*floor-three img*/
+/*左边*/
+.logo-image-apple-watch-series-4-logo-hero{
+    width:205px;
+    height:78px;
+    background-size:205px 78px;
+    background-repeat:no-repeat;
+    background-image:url("../images/main/apple_watch_series_4_logo_hero_large.jpg");
+    background-position:center
+}
+@media only screen and (max-width: 1068px){
+    .logo-image-apple-watch-series-4-logo-hero{
+        width:145px;
+        height:55px;
+        background-size:145px 55px;
+        background-image:url("../images/main/apple_watch_series_4_logo_hero_medium.jpg")
+    }
+}
+@media only screen and (max-width: 735px){
+    .logo-image-apple-watch-series-4-logo-hero{
+        width:123px;
+        height:47px;
+        background-size:123px 47px;
+        background-image:url("../images/main/apple_watch_series_4_logo_hero_small.jpg")
+    }
+}
+/*右边*/
+.floor-three-img{
+    width:340px;
+    height:580px;
+    background-size:340px 580px;
+    background-image:url("../images/main/apple_watch_series_4_largetall.jpg")}
+@media only screen and (max-width: 1068px){
+    .floor-three-img{
+        width:339px;
+        height:569px;
+        background-size:339px 579px;
+        background-image:url("../images/main/apple_watch_series_4_mediumtall.jpg")
+    }
+}
+@media only screen and (max-width: 768px){
+    .floor-three-img{
+        position:relative;
+        left:50px;
+        top:20px;
+        width:422px;
+        height:309px;
+        background-size:422px 309px;
+        background-image:url("../images/main/apple_watch_series_4_small.jpg")
+    }
+}
+/*floor-four-six img*/
+/*左*/
+/*右*/
+/*左*/
+/*背景图*/
+.new_floor_img{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+@media only screen and (max-width: 1068px){
+    
+}
+@media only screen and (max-width: 735px){
+    .new_floor_img{
+        margin:0 0 10px 0;
+    }
+}
+/*4-左图*/
+.music-img{
+    background-image:url("../images/main/apple_music_large.jpg")
+}
+
+@media only screen and (max-width: 1068px){
+    .music-img{
+        background-image:url("../images/main/apple_music_medium.jpg")
+    }
+}
+@media only screen and (max-width: 735px){
+    .music-img{
+        background-image:url("../images/main/apple_music_small.jpg")
+    }
+}
+/*4-左小背景图1*/
+.logo-image-music{
+    width:127px;
+    height:31px;
+    background-size:127px 31px;
+    background-repeat:no-repeat;
+    background-image:url("../images/main/music_large.png");
+    background-position:center;
+}
+@media only screen and (max-width: 1068px){
+    .logo-image-music{
+        width:103px;
+        height:25px;
+        background-size:103px 25px;
+        background-image:url("../images/main/music_medium.png")
+    }
+}
+@media only screen and (max-width: 735px){
+    .logo-image-music{
+        width:103px;
+        height:25px;
+        background-size:103px 25px;
+        background-image:url("../images/main/music_small.png")
+    }
+}
+/*4-左小背景图2*/
+.sm_music{
+    position:relative;
+    top:350px;
+    margin: 0 auto;
+    width:37px;
+    height:37px;
+    background-size:37px 37px;
+    background-repeat:no-repeat;
+    background-image:url("../images/main/icon_apple_music_large.png");
+    display:inline-block}
+@media only screen and (max-width: 1068px){
+    .sm_music{
+        width:33px;
+        height:33px;
+        top:280px;
+        background-size:33px 33px;
+        background-image:url("../images/main/icon_apple_music_medium.png")
+    }
+}
+@media only screen and (max-width: 735px){
+    .sm_music{
+        width:33px;
+        height:33px;
+        background-size:33px 33px;
+        background-image:url("../images/main/icon_apple_music_small.png")
+    }
+}
+/*4-右背景图*/
+.fr-img{
+    background-image:url("../images/main/4-2b.PNG");
+}
+@media only screen and (max-width: 1068px){
+    .fr-img{
+
+        background-image:url("../images/main/4-2m.PNG")
+    }
+}
+@media only screen and (max-width: 735px){
+    .fr-img{
+
+        background-image:url("../images/main/4-2s.PNG")
+    }
+}
+/*5-左背景图*/
+.five-left{
+    background-image: url("../images/main/5-1b.PNG");
+}
+@media only screen and (max-width: 1068px){
+    .five-left{
+        background-image: url("../images/main/5-1m.PNG")
+    }
+}
+@media only screen and (max-width: 735px){
+    .five-left{
+        background-image: url("../images/main/5-1s.PNG")
+    }
+}
+/*5.右背景图*/
+.five-right{
+     background-image: url("../images/main/5-2b.PNG");
+}
+@media only screen and (max-width: 1068px){
+    .five-right{
+        background-image: url("../images/main/5-2m.PNG");
+    }
+}
+@media only screen and (max-width: 735px){
+    .five-right{
+        background-image: url("../images/main/5-2s.PNG");
+    }
+}
+/*6-左背景图*/
+.six-left{
+    background-image: url("../images/main/6-1b.PNG");
+}
+@media only screen and (max-width: 1068px){
+    .six-left{
+        background-image: url("../images/main/6-1m.PNG")
+    }
+}
+@media only screen and (max-width: 735px){
+    .six-left{
+        background-image: url("../images/main/6-1s.PNG")
+    }
+}
+/*6.右背景图*/
+.six-right{
+    background-image: url("../images/main/6-2b.PNG");
+}
+@media only screen and (max-width: 1068px){
+    .six-right{
+        background-image: url("../images/main/6-2m.PNG");
+    }
+}
+@media only screen and (max-width: 735px){
+    .six-right{
+        background-image: url("../images/main/6-3s.PNG")
+    }
+}
+

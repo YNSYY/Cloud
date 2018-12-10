@@ -1,0 +1,108 @@
+/*
+#floor-one-img-one{
+    display: block;
+    top: 133px;
+    position: relative;
+    z-index:5;
+    width: 1114px;
+    height: 284px;
+    margin:0 auto;
+    background-size: 1114px 320px;
+    background-repeat:no-repeat;
+    background-image: url(../images/iphoneXs/hero_top_device_fallback_large_2x.png);
+      
+}
+@media only screen and (max-width: 1068px){
+    #floor-one-img-one{
+        width: 704px;
+        height: 296px;
+        background-size: 704px 196px;
+        background-repeat: no-repeat;
+        background-image: url(../images/iphoneXs/hero_top_device_fallback_medium_2x.jpg);
+    }
+}
+@media only screen and (max-width: 735px){
+    #floor-one-img-one{
+        width: 172px;
+        height: 508px;
+        background-repeat: no-repeat;
+        background-image: url(../images/iphoneXs/hero_vertical_startframe_small.jpg);
+        background-size: 172px 408px;
+    }
+}*/
+#floor-one-img-three{
+    position:relative;
+    display: block;
+    z-index:4;
+    width: 167px;
+    height: 28px;
+    background-size: 167px 28px;
+    background-repeat: no-repeat;
+    background-image: url(../images/iphoneXs/hero_logo_large.svg);
+    margin: 0 auto;
+    top:-100px;
+}
+@media only screen and (max-width: 1068px){
+    #floor-one-img-three{
+        background-size:180px 30px;
+        background-repeat:no-repeat;
+        background-image:url("../images/iphoneXs/")
+    }
+}
+@media only screen and (max-width: 735px){
+    #floor-one-img-three{
+        background-size:146px 25px;
+        background-repeat:no-repeat;
+        background-image:url("../images/iphoneXs/")
+    }
+}
+#floor-two{
+    width:100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/iphoneXs/design_film_large.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    max-width: 1440px;
+    height: 833px;
+}
+/* 5楼 */
+#floor-four-one{
+    position: relative;
+    margin:0 auto;
+    width:980px;
+}
+.floor-four-one-img{
+    width:980px;
+    height: 980px;
+    position: relative;
+    margin:0 auto;  
+    transition: all .2s linear;
+}
+.centerone{
+    width: 798px;
+   height: 854px; /**/
+  /* transform: scale(0.3,0.5);  */
+    transition: all .2s linear; /**/
+}
+.centertwo{
+    width: 617px;
+   height: 727px; /**/
+  /* transform: scale(0.3,0.5);  */
+    transition: all .2s linear; /**/
+}
+.centerthree{
+     width: 435px;
+     height: 599px; /**/
+   /* transform: scale(0.3,0.5);  */
+     transition: all .2s linear; /**/
+}
+.centerfour{
+    width: 254px;
+    height: 500px; /**/
+  /* transform: scale(0.3,0.5);  */
+    transition: all .2s linear; /**/
+}
+/* 6楼 */

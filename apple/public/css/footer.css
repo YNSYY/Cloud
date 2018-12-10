@@ -1,0 +1,103 @@
+/* 底部 */
+/*ul li 修饰*/
+.ul{
+    list-style: none;
+}
+#bottom{
+    font-size: 11px;
+    line-height: 1.4;
+    font-weight: 400;
+    background-color: #f2f2f2;
+    color: #000000;
+    position: absolute;
+    width:100%;
+    /* height:500px; */
+}
+#bottom_style{
+    padding:0 22px;
+    margin:0 auto;    
+    max-width: 980px;
+}
+@media only screen and (max-width: 1068px){
+    
+}
+@media only screen and (max-width: 735px){
+    #bottom_style{
+        width:100%;
+    }
+}
+
+#bottom_one {
+    height:50px;
+    line-height:50px;
+}
+#bottom_line{
+    border-bottom:1px solid #b9bbbe;
+    margin-bottom:24px;
+}
+#bottom_two{
+    justify-content:space-between;
+}
+ul{
+    margin-bottom: 0;
+}
+.ul{
+    padding:5px 0;
+}
+.ul li{
+    color:rgb(51, 51, 51);
+    padding:5px 0;
+    font-weight:400;
+}
+a .ul{
+    color:rgb(51, 51, 51);
+    font-size: 12px;
+    font-weight:600;
+    line-height: 1;
+}
+#bottom_two div .bottom_line_two{
+    display: none;
+}
+.add{
+    display: none;
+}
+.bottom_line_two{
+    border-bottom:1px solid #b9bbbe;
+    margin:10px 0;
+}
+.bottom_a{
+    padding-left: 50px;
+}
+.bottom_a>a{
+    margin-right: 7px;
+    padding-right: 10px;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    border-right: 1px solid rgb(214, 214, 214);
+}
+@media screen and (max-width: 1068px){
+
+}
+@media only screen and (max-width: 735px){
+    .ul li{
+        display: none;
+    }
+    .ul span{
+        float: right;
+    }
+    #bottom_two div a ul{
+        color:rgb(51, 51, 51);
+        font-size: 12px;
+        line-height: 1.33341;
+        font-weight: 400;
+    }   
+    #bottom_two {
+        flex-direction: column;
+    }
+    #bottom_two div .bottom_line_two{
+        display:block;
+    }
+    .add{
+        display:block;
+    }
+}

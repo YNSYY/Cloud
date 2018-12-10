@@ -1,0 +1,232 @@
+a:hover{
+    text-decoration: none;
+}
+.nav_image_one,.nav_image_two,.nav_image_three,
+.nav_image_four,.nav_image_five,.nav_image_six,.nav_image_seven,.nav_image_eight{
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 6px;
+    height: 54px;
+}
+
+.nav_image_one{
+    background-image: url(../images/iphone/iphonexs_dark_large.svg);
+    background-size: 35px 54px;
+    width:35px;
+}
+.nav_image_two{
+    background-size: 21px 54px;
+    background-image:url("../images/iphone/iphonexr_dark_large.svg");
+    width:21px
+}
+.nav_image_three{
+    background-size:37px 54px;
+    background-image:url("../images/iphone/iphone8_dark_large.svg");
+    width:37px
+}
+.nav_image_four{
+    background-size:37px 54px;
+    background-image:url("../images/iphone/iphone7_dark_large.svg");
+    width:37px
+}
+.nav_image_five{
+    background-size:32px 54px;
+    background-image:url("../images/iphone/ios_dark_large.svg");
+    width:32px
+}
+.nav_image_six{
+    background-size:23px 54px;
+    background-image:url("../images/iphone/airpods_dark_large.svg");
+    width:23px
+}
+.nav_image_seven{
+    background-size:31px 54px;
+    background-image:url("../images/iphone/accessories_dark_large.svg");
+    width:31px
+}
+.nav_image_eight{
+    background-size:50px 54px;
+    background-image:url("../images/iphone/compare_dark_large.svg");
+    width:50px
+}
+.nav_font_one{
+    font-size:11px;
+    line-height:1.09091;
+    font-weight:400;
+    letter-spacing:-.008em;
+    font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display:block;
+    margin:0
+}
+.nav_font_two{
+    font-size:9px;
+    line-height:1.22226;
+    font-weight:400;
+    letter-spacing:-.006em;
+    font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#ef5602;
+    display:block;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%
+}
+.nav_style{
+    top:45px;
+}
+/*第一层*/
+.iphone_floor{
+    padding-bottom: 76px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #000;
+    color: #ccc;
+    margin-bottom:10px;
+}
+.floor_two_one{
+    width: 152px;
+    height: 24px;
+    background-size: 152px 24px;
+    background-image: url(../images/iphone/iphonexs_logo_large.png);
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.floor_two_two{
+    padding-left: 0.4em;
+    color: #fff;
+    margin-top: 0;
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+}
+.floor_two_three{
+    line-height: 1.33349;
+    font-weight: 400;
+    letter-spacing: 0.009em;
+    display: inline-block;
+    margin: 0px 0.5em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+.new_type{
+    font-size: 22px;
+    color: #6bf;
+}
+.floor_two_four{
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+    line-height: 1.33349;
+    font-weight: 400;
+    margin-top: 0.8em;
+    text-align: center;
+}
+.floor_two_five{
+    font-size: 20px;
+    line-height: 1.33349;
+    font-weight: 400;
+    letter-spacing: 0.009em;
+    text-align: center;
+}
+/*第二层*/
+.iphone_floor_two{
+    padding-bottom: 92px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #000;
+    color: #ccc;
+    margin-bottom:10px;
+    width:100%;
+    height:745px;
+}
+.floor_two_one_two{
+    background-image: url(../images/iphone/iphonexr_logo_large.png);
+    width: 152px;
+    height: 24px;
+    background-size: 152px 24px;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.floor_two_four_two{
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    margin-top: 22px;
+    font-size: 20px;
+    text-align: center;
+    color: #ccc;
+}
+/*第三层*/
+.iphone_floor_three{
+    width:100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/iphone/design_film_large.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    max-width: 1440px;
+    height: 683px;
+}
+.video:hover{
+    display: block;
+    background-color:rgb(146, 145, 145) ;
+    transition: opacity .5s linear; /* */
+    opacity:0.9;    
+}
+.floor_three_font{
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.08365;
+    font-weight: 600;
+    text-align: center;
+}
+.floor_three_position{
+    position: relative;
+    top: 46%;
+    margin:0 auto;
+}
+/*第四层*/
+.iphone_floor_four{
+    padding-bottom: 92px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: white;
+    color: #ccc;
+    margin-bottom:10px;
+    width:100%;
+    height:555px;
+}
+.floor-four-left-img{
+    width:486px;
+    height:486px;
+    background-size: 486px 486px;
+    background-repeat: no-repeat;
+    background-image: url(../images/iphone/compare_large.jpg);
+    background-position: bottom right;
+}
+.floor_four_position{
+    position:relative;
+    top:200px;
+}
+.floor_four_font{
+    font-size: 48px;
+    line-height: 1.08365;
+    font-weight: 500;
+    color: #111;
+    text-align: center;
+}

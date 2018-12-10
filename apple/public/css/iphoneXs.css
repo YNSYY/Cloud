@@ -1,0 +1,360 @@
+body{
+    background:black;
+}
+/* 一楼 */
+#floor-one{
+    width:100%;
+    background:black;
+    height:1200px;
+    padding-top:80px;
+    position: relative;
+}
+#floor-one-video{
+    max-width: 1080px;
+    margin:60px auto;
+}
+#v1{
+    max-width: 1080px;
+    margin:100px auto;
+}
+.before{ /*定义淡入淡出动画的初始状态,常驻元素*/
+    position: relative;
+    margin:0 auto;  
+    width:1114px;
+    height:320px;
+    top:-210px;
+    opacity:0;
+    overflow:hidden;
+    transition:all 4s ease-in-out;
+}
+.after{ /*定义淡入淡出动画的结束状态*/
+    position: relative;
+    margin:0 auto;  
+    width:1114px;
+    height:320px;
+    top:-160px;
+    opacity:1
+}
+#floor-one p{
+    text-align: center;
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    color:#ffe5db;
+    position: relative;
+    top:-90px;
+    margin-bottom: 70px;
+}
+.one-h4{
+    text-align: center;
+    font-size: 33px;
+    line-height: 1.05;
+    font-weight: 600;
+    color:#ffe5db;
+    position: relative;
+    top:-90px;
+    opacity: 0;
+    transition:all 4s ease-in-out;
+}
+.floor-one-h4{
+    opacity:1;
+    transition:all 4s ease-in-out;
+}
+#floor-one h6{
+    text-align: center;
+    font-size: 23px;
+    line-height: 1.05;
+    font-weight: 600;
+    color:#ffe5db;
+    position: relative;
+    top:-50px;
+}
+/* 二楼 */
+.video:hover{
+    display: block;
+    background:black ;
+    transition: opacity .5s linear; /* */
+    opacity:0.4;    
+}
+
+#floor-two p{
+    color: #ffe5db;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    top:45%;
+    position: absolute;
+    left:43%;
+}
+#floor-two h6{
+    color: #ffe5db;
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    top:54%;
+    position: absolute;
+    left:50%;
+}
+/* 三楼 */
+#floor-three{
+    width:100%;
+    height:900px;
+    /* background:black; */
+}
+#floor-three-img-one{
+    width:920px;
+    height:566px;
+    position: relative;
+    margin:0 auto;
+    top:200px;
+    /* background-repeat: no-repeat;  */
+    /* background-image: url(../images/iphoneXs/copy_texture_1_large.jpg); */
+}
+#floor-three h2{
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    color: #ffe5db;
+}
+#floor-three span{
+      color: #ea9b5a; /**/
+   /* color:transparent; */
+    font-size:64px;
+    /* background-repeat: no-repeat; 
+    background-image: url(../images/iphoneXs/copy_texture_1_large.jpg);  
+    background-size:64px 64px;
+    background-position: center; */
+}
+.know{
+    display: block;
+    width:140px;
+    height: 46px;
+    margin-top: 40px;
+    padding: 8px 23px;
+    border-radius: 46px;
+    color:white;
+    border:1px solid white;
+    font-weight: 600;
+    font-size: 17px;
+}
+.know:hover{
+    background: white;
+    color:black;
+    transition: all .2s linear;
+}
+/* 四楼 */
+#floor-four{
+    margin-bottom: 300px;
+}
+/* 五楼 */
+#floor-five{
+    margin-bottom: 180px;
+}
+#floor-five-font{
+    width:980px;
+    position: relative;
+    margin: .8em auto 0 auto;
+}
+#floor-five-font h4{
+    font-size: 60px;
+    line-height: 1.0625;
+    font-weight: 500;
+    color: #ffe5db;
+    letter-spacing :0.09em;
+}
+#floor-five-font span{
+    font-size: 60px;
+    line-height: 1.0625;
+    font-weight: 600;
+    color: #ea9b5a;
+}
+/* 6楼 */
+#floor-six{
+    height:1000px;
+    position: relative;
+    background: linear-gradient(#000, #121212);
+    overflow:hidden;
+}
+.six{
+    display: block;
+    position:relative;
+   margin:0 0 0 150px; /* */
+    transition:all .5s linear;
+}
+  .floor-six-one{
+    margin-left:324px;
+} 
+.floor-six-two{
+    transition:all .2s linear;
+}/**/
+.floor-six-three{
+    margin-left:0;
+}  
+.leftone{
+    top:22%; 
+     /* margin-left:-10px;  */
+    margin-left:180px;
+    position: fixed;
+    /* opacity: 0; */
+    transition:all .2s linear;
+    opacity:0.7;
+}
+.lefttwo{
+    top:22%; 
+    /* left:3%; */
+    margin-left:10px;
+    position: fixed;
+    /* opacity: 0; */
+    transition:all .2s linear;
+    opacity:0.4;
+}
+.leftthree{
+    top:22%; left:0%;
+    margin-left:0px;
+    position: fixed;
+    /* opacity: 0; */
+    transition:all .2s linear;
+    opacity:0;
+}
+.position-center{
+    top:22%; 
+    left:34%;
+    position: fixed;
+    transition:all .2s linear; 
+    
+}
+.position-centertwo{
+    top:-20%; 
+    left:34%;
+    position: fixed;
+    transition:all .2s linear; 
+    
+}
+.rightone{ 
+    position: fixed; 
+    margin-left:133px;
+    top:22%; left:70%;
+	overflow:hidden;
+    transition:all .2s linear;
+    opacity:0.7;
+}
+.righttwo{ 
+    position: fixed;    
+    opacity: 0.4;
+    margin-left:334px;
+    top:22%; left:69%;
+	overflow:hidden;
+    transition:all .2s linear;
+    opacity:0.4;
+}
+.rightthree{ 
+    position: fixed; 
+    margin-left:276px;
+    top:22%; left:70%;
+    overflow:hidden;
+    opacity:0;
+    transition:all .2s linear;
+   
+}
+#floor-six div{
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-style: normal; 
+}
+#floor-six div span{
+    font-weight: 600;
+}
+.floor-six-font-one{
+    position: absolute;
+    top:100%;
+    left:9%;
+}
+.floor-six-font-two{
+    position: absolute;
+    left:69%;
+    top:100%;
+}
+.floor-six-font-three{
+    position: absolute;
+    left:9%;
+    top:100%;
+}
+
+.topone{
+    /* position: fixed; */
+    top:30%;
+    
+}
+.toptwo{
+    /* position: fixed; */
+    top:46%;
+    /* transition: top 1s linear;   */
+}
+.topthree{
+    top:62%;
+    
+}
+/* 7楼 */
+#floor-seven-img-one{
+    width:920px;
+    height:866px;
+    position: relative;
+    margin:0 auto;
+    top:200px;
+    /* background-repeat: no-repeat;  */
+    /* background-image: url(../images/iphoneXs/copy_texture_1_large.jpg); */
+}
+#floor-seven h2{
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    color: #ffe5db;
+}
+#floor-seven span{
+      color: #ea9b5a; /**/
+   /* color:transparent; */
+    font-size:64px;
+    /* background-repeat: no-repeat; 
+    background-image: url(../images/iphoneXs/copy_texture_1_large.jpg);  
+    background-size:64px 64px;
+    background-position: center; */
+}
+/* 8楼 机型比较 */
+.new_type{
+    font-size: 21px;
+    color: #6bf;
+}
+.iphone_floor_eight{
+    padding-bottom: 92px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: white;
+    color: #ccc;
+    width:100%;
+    height:505px;
+}
+.floor-eight-left-img{
+    width:486px;
+    height:425px;
+    background-size: 486px 425px;
+    background-repeat: no-repeat;
+    background-image: url(../images/iphoneXs/compare_large.jpg);
+    background-position: bottom right;
+}
+.floor_eight_position{
+    position:relative;
+    top:150px;
+}
+.floor_eight_font{
+    font-size: 48px;
+    line-height: 1.08365;
+    font-weight: 500;
+    color: #111;
+    text-align: center;
+}
+
